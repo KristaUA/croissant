@@ -1,0 +1,53 @@
+:root {
+  --main-branding-color: #00aaa0;
+  --secondary-color: #c9356c;
+  --background-color: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  --base-text-color: black;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--base-text-color);
+  max-width: 800px;
+}
+
+h1 {
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 34px;
+  line-height: 48px;
+  color: var(--main-branding-color);
+}
+
+.button {
+  padding: 10px;
+  margin-right: 10px;
+  width: 100px;
+  background-color: var(--secondary-color);
+  border: none;
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
